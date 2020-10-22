@@ -1,4 +1,4 @@
-# Python Basics
+# Python Fundamentals
 
 ## Python Basics for 
 ## Sources
