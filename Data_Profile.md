@@ -2,6 +2,7 @@
 
 ###### 요약 
 
+About.
 1. 총 26049 row, 6columns
 2. null 값이 없다!
 
