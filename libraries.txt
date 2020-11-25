@@ -4,3 +4,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+from pandasql import pysqldf
+pysqldf = lambda q: sqldf(q, globals())
+q='select * from t'
+df = sqldf(q)
+
+https://rfriend.tistory.com/334?category=695562
+
+
