@@ -3,6 +3,21 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+pd.options.display.max_rows = 100
+pd.options.display.max_columns = 20
+
+# Machine Learning
+import scipy.stats as stats
+import sklearn.linear_model as linear_model
+import xgboost as xgb
+import sklearn.model_selection import KFold
+from sklearn.manifold import TSNE
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+ 
+
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -10,6 +25,9 @@ from pandasql import pysqldf
 pysqldf = lambda q: sqldf(q, globals())
 q='select * from t'
 df = sqldf(q)
+
+%matplotlib inline  #jupyter notebook
+
 
 https://rfriend.tistory.com/334?category=695562
 
