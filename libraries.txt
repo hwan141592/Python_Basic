@@ -14,6 +14,7 @@ pd.options.display.max_columns = 20
 
 # Machine Learning
 import scipy.stats as stats
+from scipy.stats import norm
 import sklearn.linear_model as linear_model
 import xgboost as xgb
 import sklearn.model_selection import KFold
