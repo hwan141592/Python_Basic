@@ -34,7 +34,6 @@ df = sqldf(q)
 
 %matplotlib inline  #jupyter notebook
 
-
 https://rfriend.tistory.com/334?category=695562
 
 
